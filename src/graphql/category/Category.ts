@@ -3,13 +3,13 @@ import { Field, ObjectType } from "type-graphql";
 @ObjectType()
 class Category {
   @Field()
-  name: String;
+  name: string;
 
   @Field()
-  description: String;
+  description: string;
 
   @Field()
-  _id: String;
+  _id: string;
 }
 
 export default Category;
